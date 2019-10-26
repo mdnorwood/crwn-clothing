@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "clear:babel-cache": "rimraf -rf ./node_modules/.cache/babel-loader/*",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
